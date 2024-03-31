@@ -7,5 +7,5 @@ aws \
     --endpoint-url https://s3.us-east-005.backblazeb2.com \
     sync ./ s3://skiffos-mirror/ \
     --delete \
-    --exclude ".git" \
+    --exclude ".git/*" \
     --exclude "sync.bash"
